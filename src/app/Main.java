@@ -6,9 +6,10 @@ public class Main {
         char point = '.';
         String firstCommit = "\"This is shop-online app\"";
 
-        firstCommit = "\"Shop - online for customers\"";
+        String secondCommit = firstCommit;
+        secondCommit = "\"Shop - online for customers\"";
 
-        System.out.print(firstCommit + point);
+        System.out.print(secondCommit + point);
 
     }
 
